@@ -1,0 +1,54 @@
+.NumberButton {
+    display: flex;
+    width: 353px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.number {
+    font-size: 4rem;
+    border: 1px solid gray;
+    padding: 20px 40px;
+    background-color: white;
+}
+.zero {
+    font-size: 4rem;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: white;
+}
+.clear {
+    font-size: 4rem;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: white;
+}
+.ActionButton {
+    width: 140px;
+}
+.action {
+    font-size: 4rem;
+    border: 1px solid gray;
+    padding: 20px 40px;
+    color: white;
+    background-color: darkred;
+    text-align: center;
+    width: 100%;
+}
+.buttons {
+    display: flex;
+}
+.display {
+    width: 453px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    text-align: right;
+    padding: 20px;
+    font-size: 5rem;
+}
+.calculator {
+    margin-left: 20px;
+}
